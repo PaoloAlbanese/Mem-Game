@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+background:#4284f5
+}
+
+.memory-game{
+    border:2px solid lime;
+    width:640px;
+    height:640px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+    
+
+.memory-card{
+    margin:5px;
+    width:calc(25% - 10px);
+    height:calc(33.333% - 10px);
+    position:relative;
+    border-radius: 5%;
+    
+    background: white;  
+    
+}
+
+.front-face, .back-face{
+    border:2px solid deeppink;
+    background: white;
+    position:absolute;
+    
+    width: 100%;
+    height:100%;
+    border-radius: 5%;
+    padding:20px;
+}
