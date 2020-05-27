@@ -58,7 +58,7 @@ body{
     transform: rotateY(180deg);
 }
 @media(max-width:320px){
-    .memory-game{height: 350px;width:300px;}
+    .memory-game{height: 400px;width:300px;}
     
 }
     
