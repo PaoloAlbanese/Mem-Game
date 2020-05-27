@@ -60,11 +60,10 @@ body{
 }
 @media(max-width:320px){
     .memory-game{height: 300px;width:300px;}
-    
 }
-    
-
 @media(max-width:450px){
-    .memory-game{height: 450px;width:400px}
-    
+    .memory-game{height: 450px;width:400px;} 
+}
+@media(max-height:320px){
+    .memory-game{height: 300px;width:300px;} 
 }
