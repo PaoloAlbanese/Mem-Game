@@ -53,8 +53,7 @@ function resetBoard(){
     cards.forEach(card=>{
        let randomPos = Math.floor(Math.random()*12);
       card.style.order = randomPos;
-      screen.orientation.lock('landscape');
-  });
- })()
+      });
+    })()
 
 cards.forEach(card => card.addEventListener('click', flipCard));
