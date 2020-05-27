@@ -12,8 +12,8 @@ body{
 
 .memory-game{
     border:2px solid lime;
-    width:640px;
-    height:640px;
+    width:310px;
+    height:310px;
     display:flex;
     flex-wrap:wrap;
     margin:auto;
@@ -59,6 +59,15 @@ body{
     transform: rotateY(180deg);
 }
 
-@media(max-height:450px){
-    .memory-game{height: 310px;width:400px;}
-    }
+@media(min-width:450px)and (max-width:664px){
+    .memory-game{height: 250px;width:400px}
+}
+@media(min-width:665px)and (max-width:899px){
+    .memory-game{height: 350px;width:500px}
+}
+@media(min-width:900px)and (max-width:1024px){
+    .memory-game{height: 640px;width:640px}
+}
+@media(min-width:1025px){
+    .memory-game{height: 640px;width:640px}
+}
