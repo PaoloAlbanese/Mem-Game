@@ -3,7 +3,6 @@ let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard,secondCard;
 
-document.addEventListener("touchstart", function() {}, true); //to make tap on mobiles
 
 function flipCard(){
     if (lockBoard) return // to escape the function while two unmatching cards are still flipped

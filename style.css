@@ -58,16 +58,16 @@ body{
     transform: rotateY(180deg);
 }
 @media(max-width:320px){
-    .memory-game{height: 300px;width:300px}
+    .memory-game{height: 300px;width:300px;}
+    .memory-card{
+    margin:5px;
+    width:calc(25% - 5px);
+    height:calc(25% - 5px);
+
 }
-    /*.memory-card{height: calc(25% - 10px);}*/
+    
 
 @media(max-width:450px){
     .memory-game{height: 400px;width:400px}
-}
-@media(max-heighth:320px){
-    .memory-game{height: 300px;width:400px}
-}
-@media(max-heighth:450px){
-    .memory-game{height: 400px;width:500px}
+    
 }
