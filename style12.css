@@ -58,15 +58,7 @@ body{
 .front-face{
     transform: rotateY(180deg);
 }
-@media(max-width:320px){
-    .memory-game{height: 300px;width:300px;}
-}
-@media(max-width:450px){
-    .memory-game{height: 400px;width:400px;} 
-}
-@media(max-height:320px){
-    .memory-game{height: 300px;width:300px;} 
-}
+
 @media(max-height:450px){
-    .memory-game{height: 400px;width:400px;}
+    .memory-game{height: 310px;width:400px;}
     }

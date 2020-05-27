@@ -59,9 +59,6 @@ body{
     transform: rotateY(180deg);
 }
 
-@media(max-width:450px){
-    .memory-game{max-height: 310px;width:310px;} 
-}
 @media(max-height:450px){
-    .memory-game{height: 310px;width:310px;}
+    .memory-game{height: 310px;width:400px;}
     }
