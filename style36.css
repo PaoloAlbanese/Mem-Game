@@ -27,7 +27,7 @@ body{
 .memory-card{
     margin:5px;
     width:calc(16.66% - 10px);
-    height:calc(25% - 10px);
+    height:calc(16.66% - 10px);
     position:relative;
     border-radius: 5%;
     transform: scale(1);
@@ -60,8 +60,9 @@ body{
 }
 
 @media(max-width:450px){
-    .memory-game{max-height: 310px;width:310px;} 
+    .memory-game{height: 310px;width:310px;} 
 }
+
 @media(max-height:450px){
     .memory-game{height: 310px;width:310px;}
     }
