@@ -57,3 +57,11 @@ body{
 .front-face{
     transform: rotateY(180deg);
 }
+@media(max-width:320px){
+    .memory-game{height: 300px;width:300px}
+}
+    /*.memory-card{height: calc(25% - 10px);}*/
+
+@media(max-width:450px){
+    .memory-game{height: 400px;width:400px}
+}
