@@ -63,5 +63,5 @@ body{
     .memory-game{height: 250px;width:400px}
 }
 @media(min-width:700px){
-    .memory-game{height: 500px;width:500px}
+    .memory-game{height: 350px;width:500px}
 }
