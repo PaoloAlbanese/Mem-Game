@@ -65,9 +65,9 @@ body{
 @media(max-width:450px){
     .memory-game{height: 400px;width:400px}
 }
-@media(min-heighth:320px){
+@media(max-heighth:320px){
     .memory-game{height: 300px;width:400px}
 }
-@media(min-heighth:450px){
+@media(max-heighth:450px){
     .memory-game{height: 400px;width:500px}
 }
