@@ -1,4 +1,4 @@
-screen.orientation.lock('landscape');
+
 const cards = document.querySelectorAll(".memory-card");
 let hasFlippedCard = false;
 let lockBoard = false;
@@ -52,7 +52,8 @@ function resetBoard(){
     //immendiately executes to generate a random int between 0 and 11 and allocates it to each card
     cards.forEach(card=>{
        let randomPos = Math.floor(Math.random()*12);
-      card.style.order = randomPos
+      card.style.order = randomPos;
+      screen.orientation.lock('landscape');
   });
  })()
 
