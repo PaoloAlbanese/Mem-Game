@@ -69,3 +69,4 @@ body{
 }
 @media(max-height:450px){
     .memory-game{height: 400px;width:400px;}
+    }
