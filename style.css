@@ -19,6 +19,7 @@ body{
     margin:auto;
     background: #7fa18f;
     perspective: 1000px;
+    object-fit: contain
 }
 
     
@@ -58,7 +59,7 @@ body{
     transform: rotateY(180deg);
 }
 @media(max-width:320px){
-    .memory-game{height: 400px;width:300px;}
+    .memory-game{height: 300px;width:300px;}
     
 }
     
