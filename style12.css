@@ -59,7 +59,7 @@ body{
     transform: rotateY(180deg);
 }
 
-@media(min-width:450px){
+@media(min-width:450px)and (max-width:699px){
     .memory-game{height: 250px;width:400px}
 }
 @media(min-width:700px){
