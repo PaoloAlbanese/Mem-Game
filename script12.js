@@ -1,3 +1,4 @@
+screen.orientation.lock('landscape');
 const cards = document.querySelectorAll(".memory-card");
 let hasFlippedCard = false;
 let lockBoard = false;
