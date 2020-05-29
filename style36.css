@@ -9,7 +9,13 @@ body{
     display:flex;
 
 }
-
+.homeDiv{
+  position: absolute;
+  top:5%;
+  left:5%;
+  height:50px;
+  width: 50px;
+}
 .memory-game{
     border:2px solid lime;
     width:310px;
